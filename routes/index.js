@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-var dbConnect='mongodb+srv://admin:admin@cluster0.hgkyu.mongodb.net/tinder?retryWrites=true&w=majority';
+var dbConnect='mongodb+srv://admin:admin@cluster01.yh6eo.mongodb.net/account?retryWrites=true&w=majority';
 const  mongoose =require('mongoose');
 mongoose.connect(dbConnect,{useNewUrlParser:true,useUnifiedTopology:true});
 
